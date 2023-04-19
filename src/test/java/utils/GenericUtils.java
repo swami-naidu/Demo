@@ -24,5 +24,9 @@ public class GenericUtils {
 		}
 		driver.switchTo().window(w2);
 	}
+	
+	public void printTitle() {
+		System.out.println(driver.getTitle());
+	}
 
 }
